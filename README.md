@@ -6,29 +6,29 @@ https://en.wikipedia.org/wiki/Hamiltonian_path
 
 Made to calculate a Secret Santa draw.
 
-#Create graph
+##Create graph
 ```graph = Graph()```
 
-#Create node
+##Create node
 ```finn = Node(name='Finn')```
 
-#Add node to the graph
+##Add node to the graph
 ```graph.addNode(finn)```
 
-#Add edge to the nodes
+##Add edge to the nodes
 ```
 jake.addEge(gunter)
 jake.addEge(lsp)
 ```
 
-#Calculate hamyltonian cycles
+##Calculate hamyltonian cycles
 ``` allPaths = graph.search_hamiltonian_cycles(finn, print=True) ```
 
 Where parameters are:
 * first: Start node for search
 * second: True/False for print in console the results
 
-## Example Graph
+##Example Graph
 ![Alt text](exampleGraph.png?raw=true "Example Graph")
 
 In that case the app will return two Hamiltonian cycles:
